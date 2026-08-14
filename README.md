@@ -13,17 +13,6 @@ sources — instead of guessing from stale training data.
 - Asks a clarifying question if your request is too vague
 - Works as a one-off query or an interactive chat session (with memory of the conversation)
 
-## Folder structure
-
-```
-shopping-agent/
-├── package.json
-├── .env.example        # copy to .env and add your API key
-├── README.md
-└── src/
-    ├── agent.js         # core agent: talks to Claude + web search tool
-    └── index.js         # CLI entry point (interactive + single-query modes)
-```
 
 ## Setup
 
